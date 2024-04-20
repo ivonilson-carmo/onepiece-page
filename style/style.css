@@ -1,3 +1,8 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
 body{
     background-color: #e5e5e5;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +20,7 @@ h1{
     padding: .65rem;
     color: yellow;
     border-radius: 0 0 .2rem .2rem;
+    margin-bottom: 2rem;
 }
 
 main section{
@@ -25,6 +31,7 @@ main section{
     font-weight: bold;
     margin-left: 1rem;
     color: #3d3d3d;
+    margin-bottom: 1rem;
 }
 
 figure{
@@ -46,17 +53,23 @@ h2, h3{
     text-transform: uppercase;
     font-size: 1.7em;
     color: #3d3d3d;
+    padding: .625rem;
 }
 
 h2 ~ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 30px;
     text-indent: 2em;
+    padding: .325rem;
 }
 
 
 h3{
     font-size: 1.2em;
+}
+
+ul{
+    margin-left: 3em;
 }
 
 ul li{
@@ -67,7 +80,7 @@ ul li{
 
 @media (width <= 660px){
     main{
-        width: 100%;
+        width: 100svw;
     }
 }
 
