@@ -82,6 +82,7 @@ ul li{
 @media (width <= 660px){
     main{
         width: 100svw;
+        margin: 0;
     }
 }
 
